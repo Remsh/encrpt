@@ -7,8 +7,6 @@ var rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.write("Input your password:\n");
- 
 var key;
 var data = fs.readFileSync('decrypted.txt', 'utf-8');
 
